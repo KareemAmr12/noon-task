@@ -1,36 +1,93 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# My Next.js Project
 
-First, run the development server:
+Welcome to my Next.js project! This repository contains the source code for a social media-style web application.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Running the Project](#running-the-project)
+- [Additional Information](#additional-information)
+- [Contributing](#contributing)
+- [License](#license)
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Overview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This project is a social media-style web application built with Next.js. It allows users to view and interact with posts. The application is designed to be responsive and provides a seamless user experience.
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- View and interact with posts
+- Favorites tab for viewing favorite posts
+- Responsive design for mobile and desktop
+- Customizable navigation bar (automatically changes based on media used)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Next.js
+- React
+- SASS (styling)
+- Unsplash API (for images)
+- Local Storage (for saving favorites)
 
-## Deploy on Vercel
+## Installation
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To get a local copy up and running follow these simple steps.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Prerequisites
+
+- Node.js (version 14.x or later)
+- npm (version 6.x or later)
+
+### Installation Steps
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/KareemAmr12/noon-task.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```sh
+   cd noon-task
+   ```
+
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+## Running the Project
+
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+2. Open your browser and go to `http://localhost:3000` to view the application.
+
+## Additional Information
+
+- **Images**: The application uses images from Unsplash. Make sure to configure the `next.config.js` to allow image hosting from Unsplash.
+- **Styling**: The application uses SASS for styling. Each component has its own css styling for modular and maintainable styles.
+- **Local Storage**: The favorites feature uses local storage to save and retrieve favorite posts.
+
+## Contributing
+
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
