@@ -1,0 +1,152 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center; //alligning the posts in the center of the page
+  font-family: "Inter", sans-serif;
+  //background-color: #ffc13b25;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto; //to show the scrollbar when applicable
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.post {
+  position: relative; //made relative so that other elements inside using absolute can be positioned accordingly to the dimensions of the post
+  box-sizing: border-box;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #e6e6e6; //to seperate posts from each other
+  margin-bottom: 10px;
+  width: 90%; //width is % so that it is more responsive and mobile friendly
+  overflow: hidden;
+}
+
+.profile-picture {
+  border-radius: 50px; //making the profile picture round
+  cursor: pointer; //making the profile picture interactive (mock)
+  width: 45px;
+  height: 45px;
+  margin: 10px 10px 10px 0;
+}
+
+//adjusting the like button styling when it is not liked and when it is liked
+.like-button,
+.like-button-liked {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.466);
+  font-size: 20px;
+  margin: 5px 5px 0px 0px;
+  padding-left: 0;
+}
+
+//special extra class to change the color of the like button when it is clicked on (post liked)
+.like-button-liked {
+  color: #001eff;
+}
+
+.post-likes {
+  color: #001eff;
+  font-weight: 550;
+}
+
+.profile-section {
+  display: flex;
+}
+
+.profile-name {
+  color: #3c52fd;
+  align-content: center;
+  cursor: pointer;
+  font-weight: 505;
+}
+.post-picture {
+  width: 100%;
+  height: 100%;
+}
+
+.caption {
+  font-weight: 390;
+  margin-bottom: 0px;
+  display: block;
+}
+
+.tags {
+  color: #4656cf;
+  cursor: pointer;
+  display: block;
+  margin-top: 5px;
+}
+.comments {
+  color: rgb(184, 184, 184);
+  padding-top: 20px;
+  cursor: pointer;
+  display: block;
+  font-weight: 440;
+}
+
+/* Mobile Navigation */
+//checking the user's media width and deciding upon it if the user is using a smaller screen (a mobile) or a desktop and styling accordingly to be more mobile friendly.
+@media (max-width: 767px) {
+  .navigation-desktop {
+    display: none; //disabling navigation for the desktop when in mobile mode
+  }
+
+  //enabling navaigation for mobile devices
+  .navigation-mobile {
+    position: fixed; //the navigation bar will always appear at the bottom of the screen
+    z-index: 1000; //the navigation bar will always come out on top of all other elements in the page
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fa609a;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #e6e6e6;
+    padding: 10px 0;
+  }
+
+  .container {
+    margin-top: 0px;
+  }
+}
+
+/* Desktop navigation */
+@media (min-width: 768px) {
+  //disabling navigation for the mobile when in desktop mode
+  .navigation-mobile {
+    display: none;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  //styling the anchor elements to be more aproporite for their purpose
+  a {
+    text-decoration: none; //removing the underline for the anchor elements in the navigation bar
+    color: orange;
+  }
+
+  //navigation bar to be always fixed on the top of the page and always comes out on top of all other elements in the page.
+  .navigation-desktop {
+    position: fixed;
+    top: 0;
+    width: 50%;
+    background: #fff;
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    justify-content: space-around;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0;
+    z-index: 1000;
+  }
+}

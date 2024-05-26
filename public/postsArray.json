@@ -1,0 +1,227 @@
+[
+  {
+    "id": 0,
+    "img": "https://pbs.twimg.com/media/GOOa9pEXIAAx9XE?format=jpg&name=medium",
+    "author": {
+      "name": "Elon Musk",
+      "pic": "https://pbs.twimg.com/profile_images/1780044485541699584/p78MCn3B_400x400.jpg",
+      "alt": "Elon Musk picture"
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": true,
+    "noComments": 20,
+    "caption": "Launching Starlink in Fiji with the president!",
+    "tags": "#starlink #spacex #elonmusk #falcon #nasa #space #tesla #starship"
+  },
+  {
+    "id": 1,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 2,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 3,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 4,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 5,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 6,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 7,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 8,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 9,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 10,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 11,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 12,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 13,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 14,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 20,
+    "caption": "",
+    "tags": ""
+  },
+  {
+    "id": 15,
+    "img": "",
+    "author": {
+      "name": "",
+      "pic": ""
+    },
+    "noLikes": 100,
+    "isFav": false,
+    "liked": false,
+    "noComments": 54,
+    "caption": "",
+    "tags": ""
+  }
+]
